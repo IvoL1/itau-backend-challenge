@@ -1,0 +1,9 @@
+# POST
+
+POST http://localhost:3333/transaction
+Content-Type: application/json
+
+{
+  "value": 123.45,
+  "dateTime": "2023-06-11T14:30:00Z"
+}

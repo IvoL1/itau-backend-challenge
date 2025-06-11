@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2023", // "es2024" pode causar incompatibilidades
+    "module": "commonjs",
+    "moduleResolution": "node", // resolve melhor imports
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true, // ajuda com imports default
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "dist", // separa build do código fonte
+    "rootDir": "src", // organiza melhor os arquivos
+    "resolveJsonModule": true, // permite importar .json
+    "types": ["node"] // tipos globais do Node
+  },
+  "include": ["src"]
+}
