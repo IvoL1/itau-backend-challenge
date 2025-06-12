@@ -7,3 +7,5 @@ export const transacaoRouter = Router();
 transacaoRouter.post("/", validationMiddleware, transacaoController.create);
 
 transacaoRouter.get("/", transacaoController.index);
+
+transacaoRouter.delete("/", transacaoController.remove);

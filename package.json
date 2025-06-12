@@ -1,21 +1,20 @@
 {
   "name": "itau-backend-desafio",
   "version": "1.0.0",
-  "description": "API REST que recebe transações, armazena em memória e retorna estatísticas dos últimos 60 segundos.",
   "main": "index.js",
+  "repository": "https://github.com/IvoL1/itau-backend-challenge.git",
+  "author": "IvoL1 <ivoluis239@gmail.com>",
   "scripts": {
     "dev": "tsx watch src/app.ts"
   },
-  "author": "ivo luis",
-  "license": "ISC",
-  "type": "module",
-  "dependencies": {
-    "express": "^5.1.0"
-  },
+  "license": "MIT",
   "devDependencies": {
     "@types/express": "^5.0.3",
-    "@types/node": "^24.0.0",
-    "tsx": "^4.20.0",
+    "@types/node": "^24.0.1",
+    "tsx": "^4.20.2",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }

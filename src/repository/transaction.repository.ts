@@ -15,3 +15,7 @@ export function addTransaction({ value, dateTime }: TransactionInput) {
 export function listTransaction() {
   return transactionsDB;
 }
+
+export function removeTransaction() {
+  transactionsDB.length = 0;
+}

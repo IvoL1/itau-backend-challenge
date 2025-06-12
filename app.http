@@ -12,3 +12,9 @@ Content-Type: application/json
 
 # GET
 GET http://localhost:3333/transaction
+
+
+###
+
+# DELETE
+DELETE http://localhost:3333/transaction
