@@ -4,6 +4,11 @@ POST http://localhost:3333/transaction
 Content-Type: application/json
 
 {
-  "value": 123.45,
-  "dateTime": "2023-06-11T14:30:00Z"
+  "value": 2443.45,
+  "dateTime": "2025-06-11T21:20"
 }
+
+###
+
+# GET
+GET http://localhost:3333/transaction
