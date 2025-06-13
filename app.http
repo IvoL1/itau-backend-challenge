@@ -3,8 +3,8 @@ POST http://localhost:3333/transaction
 Content-Type: application/json
 
 {
-  "value": 20.0,
-  "dateTime": "2025-06-13T01:13:20"
+  "value": 150.0,
+  "dateTime": "2025-06-13T01:16:00"
 }
 
 ###
