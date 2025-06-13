@@ -20,10 +20,6 @@ Construa uma **API REST** que:
 - 📊 Calcula estatísticas dos últimos 60 segundos
 - 🗑️ Permite limpar todas as transações
 
-### 🎥 Video Explicativo
-
-[Assista no YouTube](https://youtu.be/uke3i4uOejs)
-
 ## 🛠️ Tecnologias Utilizadas
 
 - **Node.js**
