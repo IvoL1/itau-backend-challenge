@@ -20,7 +20,7 @@ class transacaoController {
 
   async remove(req: Request, res: Response) {
     try {
-      await removeTransaction();
+      removeTransaction();
       res
         .status(200)
         .json({ status: "success", message: "All transactions successfully removed.." });

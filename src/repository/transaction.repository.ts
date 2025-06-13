@@ -1,7 +1,9 @@
 import { randomUUID } from "crypto";
 import { Transaction, TransactionInput } from "../models/transacao.model";
 
-const transactionsDB: Transaction[] = [];
+import { calculateStats } from "../service/transaction.service";
+
+export const transactionsDB: Transaction[] = [];
 
 export function addTransaction({ value, dateTime }: TransactionInput) {
   transactionsDB.push({
@@ -18,4 +20,8 @@ export function listTransaction() {
 
 export function removeTransaction() {
   transactionsDB.length = 0;
+}
+
+export function statistics() {
+  return calculateStats(transactionsDB);
 }

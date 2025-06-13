@@ -1,20 +1,22 @@
-# POST
-
+# POST TRANSACTIONS
 POST http://localhost:3333/transaction
 Content-Type: application/json
 
 {
-  "value": 2443.45,
-  "dateTime": "2025-06-11T21:20"
+  "value": 20.0,
+  "dateTime": "2025-06-13T01:13:20"
 }
 
 ###
-
-# GET
+# GET TRANSACTIONS
 GET http://localhost:3333/transaction
 
 
 ###
-
-# DELETE
+# DELETE TRANSACTIONS
 DELETE http://localhost:3333/transaction
+
+###
+
+# GET STATISTICS
+GET http://localhost:3333/statistics
